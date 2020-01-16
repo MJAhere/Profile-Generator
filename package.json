@@ -1,0 +1,25 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Writing node Profile gen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MJAhere/Node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MJAhere/Node.js/issues"
+  },
+  "homepage": "https://github.com/MJAhere/Node.js#readme",
+  "dependencies": {
+    "html-pdf": "^2.2.0",
+    "inquirer": "^7.0.3",
+    "open": "^7.0.0",
+    "path": "^0.12.7"
+  }
+}
