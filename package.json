@@ -1,29 +1,26 @@
 {
-  "name": "node",
+  "name": "Profile-Generator",
   "version": "1.0.0",
-  "description": "Writing node Profile gen",
+  "description": "## Instructions: ![Node experiment](https://user-images.githubusercontent.com/38336934/72587979-1cff8d00-38b4-11ea-840c-e772d192e6c5.gif)",
   "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "html-pdf": "^2.2.0",
+    "inquirer": "^7.0.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MJAhere/Node.js.git"
+    "url": "git+https://github.com/Fancystacks/Profile-Generator.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MJAhere/Node.js/issues"
+    "url": "https://github.com/Fancystacks/Profile-Generator/issues"
   },
-  "homepage": "https://github.com/MJAhere/Node.js#readme",
-  "dependencies": {
-    "axios": "^0.19.2",
-    "dotenv": "^8.2.0",
-    "electron": "^8.0.1",
-    "electron-html-to": "^2.6.0",
-    "html-pdf": "^2.2.0",
-    "inquirer": "^7.0.4",
-    "open": "^7.0.0",
-    "path": "^0.12.7"
-  }
+  "homepage": "https://github.com/Fancystacks/Profile-Generator#readme"
 }
