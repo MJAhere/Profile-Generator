@@ -25,8 +25,7 @@ const questions = [
     }
 ];
 
-// color picked by user after entering username
-inquirer
+
     .prompt(questions)
     .then(function ({username, color}) {
         const queryUrl = `https://api.github.com/users/${username}`;
@@ -57,12 +56,9 @@ inquirer
             }
         };
 
-        // fetching data from the github api
         axios
             .get(queryUrl)
             .then(function ({data}) {
-
-                // destructuring api data from call
                 const { avatar_url, login, location, html_url, name, company, blog, bio, public_repos, public_gists, followers, following} = data;
 
                 const html = 
@@ -250,12 +246,10 @@ inquirer
                                     </div>
                                 </div>
                     </body>
-                    </html>`
-                ;
+                    </html>`;
 
                 var format = { format: 'Letter' };
 
-                // creating an HTML / PDF document 
                 pdf.create(html, format).toFile(`./html-pdf/${login}.pdf`, function(err, res) {
                     if (err) return console.log(err);
                     console.log('EUREKA!');

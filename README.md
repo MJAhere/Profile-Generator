@@ -1,6 +1,8 @@
 # Node.js
 Node Profile Generator
 
+![profile gen](./Images/Profile-Generator)
+
 ## Instructions
 
 - You must first enter the correct folder in command line.
