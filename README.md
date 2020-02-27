@@ -1,7 +1,7 @@
 # Node.js
 Node Profile Generator
 
-![profile gen](./Images/Profile-Generator)
+![](Profile-Generator.gif)
 
 ## Instructions
 
